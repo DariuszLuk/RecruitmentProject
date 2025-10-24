@@ -9,16 +9,16 @@ RecruitmentProject/
 ├── Helpers/                # Testing utilities
 │   ├── TestLogger.cs       # Custom assertion failure logger
 │   └── ApiClientHelper.cs  # HTTP client extension methods
-├── Models/                 # API data models
-│   ├── Activity.cs
-│   ├── Author.cs
-│   └── Book.cs
 ├── Setup/                  # Test infrastructure
 │   ├── Configuration/
 │   │   └── ApiSettings.cs
 │   ├── TestFixture.cs      # xUnit test fixture
 │   └── SetupForAllTests.cs # DI configuration
 ├── TestApi/                # API client wrapper
+│   ├── Models/                 # API data models
+│   │   ├── Activity.cs
+│   │   ├── Author.cs
+│   │   └── Book.cs
 │   ├── TestClientApi.cs    # HTTP client wrapper
 │   ├── TestApiTestSteps.cs # Test step methods
 │   └── UrlSegments.cs      # API endpoint constants
